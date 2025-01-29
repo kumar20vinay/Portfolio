@@ -61,20 +61,6 @@ AOS.init( {
 	};
 	loader();
 
-	var codechefStars = function () {
-		let x = 2; // Change this value to control the number of stars
-		let starsContainer = document.getElementById("stars");
-	
-		for (let i = 0; i < x; i++) {
-			let img = document.createElement("img");
-			img.src = "images/star.png";
-			img.width = 15;
-			img.height = 20;
-			starsContainer.appendChild(img);
-		}
-	}
-	codechefStars();
-
 	// Scrollax
 	$.Scrollax();
 
